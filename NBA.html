@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sobre a NBA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #f0f0f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: rgba(10, 25, 48, 0.95);
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+      width: 100%;
+      max-width: 800px;
+      padding: 40px 50px;
+      text-align: center;
+      overflow-y: auto;
+      overflow-x: hidden;
+      max-height: 95vh;
+      position: relative;
+
+      /* Scrollbar para Firefox */
+      scrollbar-width: thin;
+      scrollbar-color: #fdb927 #0a192f;
+    }
+
+    /* Scrollbar para WebKit (Chrome, Safari, Edge) */
+    .container::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    .container::-webkit-scrollbar-track {
+      background: #0a192f;
+      border-radius: 10px;
+    }
+
+    .container::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #fdb927, #d18e00);
+      border-radius: 10px;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
+    }
+
+    .container::before {
+      content: '';
+      position: absolute;
+      top: -60px;
+      left: -60px;
+      width: 200px;
+      height: 200px;
+      background: radial-gradient(circle at center, #fdb927 0%, transparent 70%);
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: 0.4;
+      z-index: 0;
+    }
+
+    .logo {
+      max-width: 160px;
+      margin-bottom: 30px;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(253, 185, 39, 0.7);
+      transition: transform 0.3s ease;
+      position: relative;
+      z-index: 10;
+    }
+
+    .logo:hover {
+      transform: scale(1.1) rotate(5deg);
+    }
+
+    h1 {
+      font-family: 'Anton', sans-serif;
+      font-size: 3.2rem;
+      color: #fdb927;
+      margin-bottom: 25px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+      position: relative;
+      z-index: 10;
+    }
+
+    h1::after {
+      content: '';
+      display: block;
+      width: 140px;
+      height: 4px;
+      background: #fdb927;
+      margin: 12px auto 0;
+      border-radius: 2px;
+      box-shadow: 0 0 10px #fdb927;
+      position: relative;
+      z-index: 10;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      margin: 20px auto;
+      color: #dddde1;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+      position: relative;
+      z-index: 10;
+      max-width: 700px;
+      text-align: justify;
+    }
+
+    p strong {
+      color: #fdb927;
+      font-weight: 700;
+      text-shadow: 1px 1px 3px #d18e00;
+    }
+
+    @media(max-width: 720px) {
+      .container {
+        padding: 30px 25px;
+      }
+
+      h1 {
+        font-size: 2.4rem;
+      }
+
+      p {
+        font-size: 1.05rem;
+      }
+
+      .logo {
+        max-width: 130px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>O que é a NBA?</h1>
+    <p>
+      A <strong>NBA</strong> (<em>National Basketball Association</em>) é a principal liga de basquete profissional dos Estados Unidos e uma das mais importantes do mundo. Foi fundada em 1946 e reúne os melhores jogadores do planeta, como <strong>LeBron James</strong>, <strong>Stephen Curry</strong> e <strong>Giannis Antetokounmpo</strong>.
+    </p>
+    <p>
+      A temporada da NBA é dividida em <strong>temporada regular</strong>, <strong>playoffs</strong> e as <strong>finais</strong>. Trinta times competem, sendo divididos em duas conferências: <strong>Leste</strong> e <strong>Oeste</strong>. O campeão de cada conferência disputa a final da NBA.
+    </p>
+    <p>
+      Além de ser um espetáculo esportivo, a NBA também tem grande impacto cultural, influenciando a <strong>moda</strong>, a <strong>música</strong> e os <strong>jogos eletrônicos</strong>.
+    </p>
+
+    <h1>Maiores Campeões e Lendas da NBA</h1>
+    <p>
+      Ao longo da história, alguns times se destacaram como os maiores campeões da NBA. O <strong>Boston Celtics</strong> e o <strong>Los Angeles Lakers</strong> lideram com 17 títulos cada um, sendo protagonistas de diversas finais históricas. Outros times como <strong>Chicago Bulls</strong>, <strong>Golden State Warriors</strong> e <strong>San Antonio Spurs</strong> também marcaram época com suas conquistas.
+    </p>
+    <p>
+      Entre os jogadores, poucos alcançaram o status de lenda como <strong>Michael Jordan</strong>, considerado por muitos o maior de todos os tempos, com 6 títulos pelo Chicago Bulls. Outros ícones incluem <strong>LeBron James</strong>, que ainda está em atividade e já soma múltiplos títulos; <strong>Kobe Bryant</strong>, símbolo do Lakers com 5 campeonatos; <strong>Magic Johnson</strong>, <strong>Larry Bird</strong>, <strong>Shaquille O'Neal</strong>, <strong>Tim Duncan</strong> e <strong>Stephen Curry</strong>, que revolucionou o jogo com sua habilidade nos arremessos de três pontos.
+    </p>
+  </div>
+</body>
+</html>

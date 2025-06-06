@@ -1,0 +1,48 @@
+nav ul a,
+nav .brand-logo{
+	color:#444;
+}
+
+.sidenav-trigger{
+	color:#26a69a;
+}
+
+.btn-center-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px; /* Espaço entre os botões */
+  margin: 20px 0;
+  flex-wrap: wrap; /* para caso fique menor, quebra linha */
+}
+
+
+
+#primeiro{
+	color: rgb(0, 0, 0);
+}
+
+parallax-container{
+	min-height: 500px;
+	line-height: 0;
+	height:auto;
+	color:rgba(255,255,255,.9);
+}
+
+.parallax-container .section{
+	width: 100%;	
+}
+
+.icon-block{
+	padding: 0px;
+}
+
+
+
+.icon-block p{
+	text-align:center;
+
+}
+
+p{
+	line-height: 2rem;
+}
